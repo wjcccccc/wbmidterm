@@ -420,13 +420,14 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
   color: #1a1a1a;
 }
 .line--biggest {
-  font-size: clamp(46px, 7vw, 80px);
+  font-size: clamp(32px, 7vw, 78px);
   font-weight: 700;
   line-height: 1.5;
   margin: 18px 0;
   color: #c8466e;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.08em;
   text-shadow: 0 6px 24px rgba(200, 70, 110, 0.18);
+  word-break: keep-all;
 }
 
 .heart {
@@ -494,7 +495,11 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
 }
 
 @media (max-width: 480px) {
-  .slide { padding: 32px 18px; }
+  .slide { padding: 32px 14px; }
+  .line { font-size: 19px; line-height: 1.85; letter-spacing: 0.04em; }
+  .line--big { font-size: 24px; letter-spacing: 0.04em; }
+  .line--biggest { font-size: 34px; letter-spacing: 0.02em; margin: 14px 0; }
+  .heart { font-size: 44px; margin-top: 18px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
