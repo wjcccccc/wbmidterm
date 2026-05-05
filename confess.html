@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>給你的一封信</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="page-confess">
+  <div id="petals" class="petals" aria-hidden="true"></div>
+
+  <main class="slides">
+    <section class="slide" data-duration="4200">
+      <p class="line">我我我</p>
+      <p class="line">這幾天想了好多</p>
+      <p class="line">就是你跟我說的那些啊</p>
+    </section>
+
+    <section class="slide" data-duration="4500">
+      <p class="line">跟你相處聊天真的很開心</p>
+      <p class="line">而且見面的時候</p>
+      <p class="line">其實心臟也都跳得好快</p>
+    </section>
+
+    <section class="slide" data-duration="6200">
+      <p class="line">我們那天坐在草皮</p>
+      <p class="line">你跟我說的那些 我都有聽進去</p>
+      <p class="line">知道你工作壓力大</p>
+      <p class="line">知道你是個沒有安全感的人</p>
+    </section>
+
+    <section class="slide" data-duration="5000">
+      <p class="line line--big">但我想說的是</p>
+      <p class="line line--biggest">我喜歡你</p>
+    </section>
+
+    <section class="slide" data-duration="5000">
+      <p class="line">未來是不是</p>
+      <p class="line">讓我在你旁邊</p>
+      <p class="line line--big">可以讓我保護你</p>
+    </section>
+
+    <section class="slide slide--final">
+      <p class="line">如果可以的話</p>
+      <p class="line line--big">未來的日子</p>
+      <p class="line line--biggest">就請多多指教！</p>
+      <div class="heart">♡</div>
+    </section>
+  </main>
+
+  <button id="skip-btn" class="skip-btn" type="button" aria-label="下一段">下一段 →</button>
+  <button id="back-btn" class="back-btn" type="button">← 回到首頁</button>
+
+  <audio id="bgm" src="song.mp3" loop preload="auto"></audio>
+  <button id="audio-toggle" class="audio-toggle" type="button" aria-label="播放/暫停音樂">
+    <span class="audio-icon">🔊</span>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
